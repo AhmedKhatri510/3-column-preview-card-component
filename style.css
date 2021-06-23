@@ -117,3 +117,33 @@ body{
     padding: 10px 20px;
 }
 
+/* ---------mobile screen------------ */
+
+@media only screen and (max-width: 639px){
+    body{
+        flex-direction: column;
+    }
+
+    .pumpkin-div,
+    .torquiose-div,
+    .green-sea-div{
+        padding: 10%;
+        width: 70%;
+        text-align: left;
+    }
+
+    .pumpkin-div{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 2%;
+    }
+
+    .green-sea-div{
+        border-bottom-left-radius: 0;
+        border-bottom-left-radius: 2%;
+        border-top-right-radius: 0%;
+    }
+
+    p{
+        margin-bottom: 40px;
+    }
+}
