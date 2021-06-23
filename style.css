@@ -17,7 +17,6 @@ p{
     margin-bottom: 50px;
 }
 
-
 /* ------------------icons------------ */
 
 img{
@@ -42,7 +41,6 @@ h1{
     /* height: 50vh; */
     width: 20%;
     text-align: left;
-
 }
 
 .pumpkin-div{
@@ -92,27 +90,47 @@ body{
 .pumpkin-div a:active{
     text-decoration: none;
     /* border: 1px solid white; */
-    background-color: #d35400;
+    background-color: hsl(31, 77%, 52%);
     color: white;
     border-radius: 50px;
     border: 1px solid white;
     padding: 10px 20px;
 }
 
-.torquiose-div a{
+.torquiose-div a:link,
+.torquiose-div a:visited{
     text-decoration: none;
     /* border: 1px solid white; */
-    background-color: hsl(0, 0%, 95%);
-    color: #1ea78b;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
     border-radius: 50px;
+    border: 1px solid white;
     padding: 10px 20px;
 }
 
-.green-sea-div a{
+.torquiose-div a:hover,
+.torquiose-div a:active{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.green-sea-div a:link,
+.green-sea-div a:visited{
     text-decoration: none;
-    /* border: 1px solid white; */
-    background-color: hsl(0, 0%, 95%);
-    color: #11725e;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.green-sea-div a:hover,
+.green-sea-div a:active{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
     border-radius: 50px;
     padding: 10px 20px;
 }
@@ -122,6 +140,7 @@ body{
 @media only screen and (max-width: 639px){
     body{
         flex-direction: column;
+        margin: 20% 0;
     }
 
     .pumpkin-div,
